@@ -1,0 +1,31 @@
+
+/* 2 способ */
+
+
+body{
+    background: rgb(36, 204, 50);
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+.calculator{
+    display: flex;
+}
+input{
+    width: 100px;
+    height: 30px;
+    background: rgb(172, 114, 47);
+    border: none;
+    border-radius: 3px;
+}
+input::placeholder{
+    color: black;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: #a9e9c6;
+    border: none;
+    border-radius: 4px;
+}
